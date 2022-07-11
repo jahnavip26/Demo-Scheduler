@@ -1,0 +1,283 @@
+*{
+    margin: 0;
+}
+
+
+.outer-bg{
+
+
+    background-color: peachpuff;
+}
+
+.inner-bg{
+
+    border-radius: 5%;
+    background-color: white;
+}
+
+
+
+
+
+.flex-container{
+    display: flex;
+    border: 1px solid whitesmoke;
+    height: 100px;
+    
+}
+
+.flex-logo{
+    background-color: white;
+    border: 1px solid whitesmoke;
+    width: 20%;
+    align-items: flex-start;
+    
+}
+
+.flex-search{
+    background-color: white;
+    border: 1px solid whitesmoke;
+    width: 48%;
+    align-items: center;
+}
+
+.flex-menu{
+    background-color: white;
+    border: 1px solid whitesmoke;
+    width: 32%;
+    align-items: flex-end;
+    
+    
+}
+
+.search-bar{
+
+    display: flex;
+}
+
+
+.search-bar input{
+
+    width: 400px;
+    background: transparent;
+    display: flex;
+    align-items: flex-end;
+    border: 1px solid black ;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 20px;
+    margin-left: 40px;
+    padding: 24px 20px;
+    font-size: 20px;
+
+}
+
+.main-body{
+
+    display: flex;
+}
+
+.left-pane{
+
+    border: 1px solid whitesmoke;
+    width: 20%;
+    height: 100vh;
+}
+
+.middle-pane{
+
+    border: 1px solid whitesmoke;
+    width: 48%;
+    height: 100vh;
+}
+
+.right-pane{
+
+    border: 1px solid whitesmoke;
+    width: 32%;
+    height: 100vh;
+}
+
+.overview-card{
+
+    background-color: whitesmoke;
+    width: 180px;
+    height: 250px;
+    border-radius: 20px;
+    
+}
+
+.overview{
+
+    display: flex;
+    background-color: orange;
+    width: 160px;
+    height: 40px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px auto;
+    justify-content: center;
+    align-items: center;
+    
+
+    
+}
+
+.upgrade-card{
+
+    background-color: whitesmoke;
+    width: 180px;
+    height: 250px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.see-plan{
+
+    background-color: orange;
+    width: 160px;
+    height: 40px;
+    border-radius: 10px;
+    text-align: center;
+    
+
+}
+
+.logout-card{
+
+    background-color: whitesmoke;
+    width: 160px;
+    height: 40px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.middle-pane{
+
+    display: flex;
+}
+
+.button {
+    display: flex;
+    height: 45px;
+    width: 80%;
+    padding: 0;
+    background: whitesmoke;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    overflow: hidden;
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background: black;
+  }
+  
+  .button:active {
+    background: #006e58;
+  }
+  
+  .button__text {
+    display: inline-flex;
+    align-items: center;
+    justify-items: center;
+    padding: 0 24px;
+    color: black;
+    height: 100%;
+  }
+
+  .middlecard-icon{
+
+    background-color: whitesmoke;
+    height: 45px;
+    width: 45px;
+    border-radius: 10px;
+
+  }
+
+  .write-card{
+
+    background-image: linear-gradient(to bottom right, rgb(189, 170, 219), rgb(130, 66, 234) );
+    width: 150px;
+    height: 250px;
+    border-radius: 20px;
+    text-align: center;
+  }
+
+  .middlepane-text{
+
+    color: white;
+
+
+  }
+
+  .listen-card{
+
+    background-image: linear-gradient(to bottom right, rgb(230, 133, 178), rgb(190, 47, 124) );
+    width: 150px;
+    height: 250px;
+    border-radius: 20px;
+    text-align: center;
+  }
+
+  .speak-card{
+
+    background-image: linear-gradient(to bottom right, #fcc55f9c, orange) ;
+    width: 150px;
+    height: 250px;
+    border-radius: 20px;
+    text-align: center;
+    
+  }
+
+  .more-card{
+
+    background-color: whitesmoke;
+    width: 150px;
+    height: 160px;
+    border-radius: 20px;
+    text-align: center;
+    color: black;
+
+
+  }
+
+  .more-icon{
+     
+    border-radius: 50%;
+    background-color: black;
+    width: 20%;
+    height: 20%;
+    color: white;
+    text-align: center;
+
+  }
+    
+
+
+.calender-icon{
+
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: rgba(16, 124, 164, 0.363);
+  padding: 10px;
+  border: 5px solid #f5f5f5;
+  outline: 1px solid rgba(16, 124, 164, 0.363);
+  position: relative;
+
+}
+
+svg{
+
+  width: 30px;
+  position: absolute;
+  z-index: 1;
+  top: 35%;
+  left: 35%;
+
+}
